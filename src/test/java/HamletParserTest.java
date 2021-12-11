@@ -1,5 +1,9 @@
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import static org.junit.Assert.*;
 
@@ -15,6 +19,15 @@ public class HamletParserTest {
 
     @Test
     public void testChangeHamletToLeon() {
+        // Given
+
+
+        // When
+
+        // Look up data according to hamlet file
+
+        //Then
+
     }
 
     @Test
@@ -22,10 +35,11 @@ public class HamletParserTest {
     }
 
     @Test
-    public void testFindHoratio() {
+    public void FindHoratio() {
+
     }
 
     @Test
-    public void testFindHamlet() {
+    public void FindHamlet() {
     }
 }
